@@ -6,5 +6,6 @@
  * error is by relying on your debugger.
  */
 module.exports = function() {
-    console.lg('Hello, World!'));
+    console.log('Hello, World');
+
 };

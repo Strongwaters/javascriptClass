@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "js3030-week1@^0.1.0",
+        "raw": "js3030-week2@^0.1.0",
         "scope": null,
-        "escapedName": "js3030-week1",
-        "name": "js3030-week1",
+        "escapedName": "js3030-week2",
+        "name": "js3030-week2",
         "rawSpec": "^0.1.0",
         "spec": ">=0.1.0 <0.2.0",
         "type": "range"
@@ -13,14 +13,14 @@
       "/Users/michaelmac/Desktop/code"
     ]
   ],
-  "_from": "js3030-week1@>=0.1.0 <0.2.0",
-  "_id": "js3030-week1@0.1.7",
+  "_from": "js3030-week2@>=0.1.0 <0.2.0",
+  "_id": "js3030-week2@0.1.27",
   "_inCache": true,
-  "_location": "/js3030-week1",
+  "_location": "/js3030-week2",
   "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/js3030-week1-0.1.7.tgz_1488918787865_0.035165293142199516"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/js3030-week2-0.1.27.tgz_1489029687643_0.19813006976619363"
   },
   "_npmUser": {
     "name": "spiritway",
@@ -29,10 +29,10 @@
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "js3030-week1@^0.1.0",
+    "raw": "js3030-week2@^0.1.0",
     "scope": null,
-    "escapedName": "js3030-week1",
-    "name": "js3030-week1",
+    "escapedName": "js3030-week2",
+    "name": "js3030-week2",
     "rawSpec": "^0.1.0",
     "spec": ">=0.1.0 <0.2.0",
     "type": "range"
@@ -41,16 +41,18 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.7.tgz",
-  "_shasum": "d0240b81f420df7419c9b0b83c574454de9e7b07",
+  "_resolved": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.27.tgz",
+  "_shasum": "e75eb1a69813631560824ba5c68887df882188a2",
   "_shrinkwrap": null,
-  "_spec": "js3030-week1@^0.1.0",
+  "_spec": "js3030-week2@^0.1.0",
   "_where": "/Users/michaelmac/Desktop/code",
   "author": {
     "name": "Mike Whitfield",
     "url": "http://mikewhitfield.org"
   },
-  "dependencies": {},
+  "dependencies": {
+    "spirittests": "^0.3.6"
+  },
   "description": "JavaScript 3030 Course",
   "devDependencies": {
     "babel-cli": "^6.16.0",
@@ -63,10 +65,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "d0240b81f420df7419c9b0b83c574454de9e7b07",
-    "tarball": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.7.tgz"
+    "shasum": "e75eb1a69813631560824ba5c68887df882188a2",
+    "tarball": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.27.tgz"
   },
-  "gitHead": "6d950c445c51f38f3d1eaa348ef99653084ff398",
+  "gitHead": "dfae10293f346571c5ee0defa3c81d21af7c6d93",
   "homepage": "https://bitbucket.org/michaelgwhitfield/javascript3030#readme",
   "keywords": [],
   "maintainers": [
@@ -75,13 +77,16 @@
       "email": "hello@spiritway.co"
     }
   ],
-  "name": "js3030-week1",
+  "name": "js3030-week2",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/michaelgwhitfield/javascript3030.git"
   },
-  "scripts": {},
-  "version": "0.1.7"
+  "scripts": {
+    "run-tests": "node node_modules/spirittests/index.js",
+    "run-testserver": "node node_modules/spirittests/test.server.js"
+  },
+  "version": "0.1.27"
 }

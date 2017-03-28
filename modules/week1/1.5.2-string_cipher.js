@@ -22,4 +22,3 @@ for (let encryptedPosition in encryptedString) {
     char = Math.sqrt((char - 31)  + (126 - 31) * numberOfRotations[encryptedPosition]) + 31;
     decryptedString += String.fromCharCode(char);
 }
-console.log(encryptedString)
