@@ -13,9 +13,8 @@
     "js3030-week1": "^0.1.0",
     "js3030-week2": "^0.1.0",
     "js3030-week3": "^0.1.0",
-    "spiritdependencies": "^0.1.*",
-    "spirittests": "^0.3.*",
-    "spirittimers": "^0.8.13"
+    "spirittimers": "^0.8.13",
+    "spiritcore": "^0.1.0"
   },
   "repository": {
     "type": "git",
